@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop",
+        "category": "Computers",
+        "brand": "ExampleBrand",
+        "price": 99999.99,
+        "stock": 50,
+        "description": "Powerful laptop with a quad-core i5 processor, 8GB RAM, 256GB SSD, and a 14-inch FHD display.",
+        "image": "../public/lapi.png"
+    },
+    {
+        "id": 2,
+        "name": "Smartphone",
+        "category": "Mobiles",
+        "brand": "TechGadget",
+        "price": 49999.99,
+        "stock": 100,
+        "image": "../public/iphone.png",
+        "description": "Feature rich phone with 6.1-inch screen, 12MP dual camera, 128GB storage, and 4000mAh battery."
+    },
+    {
+        "id": 3,
+        "name": "Wireless Headphones",
+        "category": "Audio",
+        "brand": "SoundBeats",
+        "price": 24499.99,
+        "stock": 30,
+        "image": "../public/headphone.png",
+        "description": "High quality wireless headphones with over-ear design, 20 hours of battery life, and a sleek balck color."
+    },
+    {
+        "id": 4,
+        "name": "Watches",
+        "category": "Wearables",
+        "brand": "FitTech",
+        "price": 19999.99,
+        "stock": 20,
+        "image": "../public/watch.png",
+        "description": "Smartwatch with a 1.3-inch amoled display, water-resistent, fitness tracking features, and a stylish color."
+    },
+    {
+        "id": 5,
+        "name": "Speakers",
+        "category": "Audio",
+        "brand": "SoundBeats",
+        "price": 1499.99,
+        "stock": 30,
+        "image": "../public/speakers.png",
+        "description": "High quality speakers with a loud base and powerful base, 60mm drivers, type-c."
+    },
+    {
+        "id": 6,
+        "name": "Telivision",
+        "category": "Video",
+        "brand": "Samsung",
+        "price": 79999.99,
+        "stock": 20,
+        "image": "../public/tv.png",
+        "description": "Smart android tv of 52-inch FHD size display."
+    }
+]
