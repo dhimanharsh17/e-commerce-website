@@ -1,16 +1,5 @@
-export function showToast(operation, id) {
-    const toast = document.createElement("div");
-    toast.classList.add("toast");
-    if (operation === "add") {
-      toast.textContent = `Product with ID ${id} has been added.`;
-    } else {
-      toast.textContent = `Product with ID ${id} has been deleted.`;
-    }
-  
-    document.body.appendChild(toast);
-  
-    setTimeout(() => {
-      toast.remove();
-    }, 2000);
-  }
-  
+// updateCartProductTotal.js
+export function updateCartProductTotal() {
+  // Implementation of the function
+  console.log("Cart product total updated.");
+}

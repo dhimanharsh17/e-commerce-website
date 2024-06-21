@@ -1,5 +1,6 @@
 import { getCartProductFromLS } from "./getCartProducts";
-import { updateCartProductTotal } from "./updateCartProductTotal";
+import { updateCartProductTotal } from './updateCartProductTotal.js';
+import { showToast } from './showToast.js';
 
 export const incrementDecrement = (event, id, stock, price) => {
   const currentCardElement = document.querySelector(`#card${id}`);
@@ -51,3 +52,8 @@ export const incrementDecrement = (event, id, stock, price) => {
   updateCartProductTotal();
 
 };
+incrementDecrement.js
+
+// Use the imported functions
+updateCartProductTotal();
+showToast('add', 123);
